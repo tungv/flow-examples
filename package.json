@@ -1,0 +1,29 @@
+{
+  "name": "flow-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-plugin-syntax-flow": "^6.13.0",
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
+    "lodash": "^4.15.0",
+    "react": "^15.3.1",
+    "react-motion": "^0.4.4",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel-plugin-typecheck": "^3.9.0",
+    "flow-bin": "^0.31.1",
+    "iflow-lodash": "^1.1.23",
+    "iflow-react-redux": "^1.1.17",
+    "iflow-redux": "^1.0.37"
+  }
+}
